@@ -1,0 +1,30 @@
+﻿Сборка начата 24.11.2015 18:21:53.
+     1>Проект "C:\Users\MegaHare\Desktop\RayTracer\src\RayTracer.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tracer.cpp
+         Tracer.cpp
+     1>Tracer.cpp(7): warning C4305: инициализация: усечение из "double" к "float"
+     1>Tracer.cpp(12): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
+     1>Tracer.cpp(13): warning C4244: инициализация: преобразование "unsigned int" в "float", возможна потеря данных
+     1>Tracer.cpp(18): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>Tracer.cpp(65): warning C4305: инициализация: усечение из "double" к "float"
+     1>Tracer.cpp(74): warning C4305: инициализация: усечение из "double" к "float"
+     1>Tracer.cpp(100): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>Tracer.cpp(115): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>Tracer.cpp(127): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>Tracer.cpp(140): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>Tracer.cpp(223): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(224): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+     1>Tracer.cpp(225): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MegaHare\Desktop\RayTracer\src\..\bin\RayTracer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MegaHare\Desktop\RayTracer\src\..\bin\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MegaHare\Desktop\RayTracer\src\..\bin\RayTracer.lib" /MACHINE:X86 /SAFESEH Release\Main.obj
+         Release\Scene.obj
+         Release\Tracer.obj
+         Создание кода
+         Создание кода завершено
+         RayTracer.vcxproj -> C:\Users\MegaHare\Desktop\RayTracer\src\..\bin\RayTracer.exe
+     1>Сборка проекта "C:\Users\MegaHare\Desktop\RayTracer\src\RayTracer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.03
